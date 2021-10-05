@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Bakhtiyor Akhmedov](https://up.htmlacademy.ru/htmlcss/32/user/34018).
-* Наставник: `Дмитрий (sench) Железцов`(https://htmlacademy.ru/profile/id983299).
+* Наставник: [Дмитрий (sench) Железцов](https://htmlacademy.ru/profile/id983299).
 
 ---
 
