@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @font-face {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        src: url("fonts/inter-400.woff2") format("woff2");
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        src: url("fonts/inter-700.woff2") format("woff2");
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 900;
+        src: url("fonts/inter-900.woff2") format("woff2");
+        font-display: swap;
+      }
+
+      h1 {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;
+      }
+
+      .rubl-sign::before {
+        content: "\20BD";
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Знак рубля</h1>
+    <h1>₽</h1>
+    <h1>&#8381;</h1>
+    <h1>&#U+20BD</h1>
+    <h1>&#x20bd; </h1>
+    <h1 class="rubl-sign"></h1>
+    <h1>$¥£€₽₩₤</h1>
+  </body>
+</html>
